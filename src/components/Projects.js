@@ -19,7 +19,7 @@ const Projects = () => {
       title: "YouTube",
       description: "Developed an Immersive video streaming platform which is highly optimised using all the latest tech used by React With Integration of Youtube API. Tech Stack:- ReactJs, Tailwind CSS, Redux-toolkit, React-router-dom.",
       src: youtube,
-      demoLink: "https://example.com/youtube-demo",
+      demoLink: "https://youuutubeclone.netlify.app/",
       codeLink: "https://github.com/prajwalpatil07/youtube"
     },
     {
