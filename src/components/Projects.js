@@ -11,7 +11,7 @@ const Projects = () => {
       title: "NetflixGPT",
       description: "Created an online movie streaming app with some AI search Feature using ReactJS, Tailwind CSS and Gemini API, which is fully responsive for all devices to play movies seamlessly. Tech Stack:- ReactJS, Tailwind CSS, Redux-toolkit, React-router-dom, Firebase (Authentication)",
       src: netflix,
-      demoLink: "https://netflixgemini.netlify.app",
+      demoLink: "https://netflix-gpt-henna.vercel.app/",
       codeLink: "https://github.com/prajwalpatil07/netflix-gpt"
     },
     {
@@ -27,8 +27,8 @@ const Projects = () => {
       title: "Foodie",
       description: "Developed a centralized platform using React JS and Tailwind CSS to consolidate 9+ restaurants in the city, showcasing comprehensive menu details. Tech Stack:- ReactJs, Tailwind CSS, Redux-toolkit, React-router-dom",
       src: foodie,
-      demoLink: "https://example.com/foodie-demo",
-      codeLink: "https://github.com/yourusername/foodie"
+      demoLink: "https://github.com/prajwalpatil07/Foodie",
+      codeLink: "https://github.com/prajwalpatil07/Foodie"
     },
   ];
 
