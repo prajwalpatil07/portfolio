@@ -2,12 +2,21 @@ import React from "react";
 import youtube from "../assests/projects/youtube.jpg";
 import netflix from "../assests/projects/netflix.jpg";
 import foodie from "../assests/projects/foodie.png";
+import imaginify from "../assests/projects/imaginify.png"
 
 const Projects = () => {
 
   const projects = [
     {
       id: 1,
+      title: "Imaginify",
+      description: "Developed an AI image SaaS platform with superior image processing capabilities. Supervised and supported multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal. Tech Stack:- NextJS, Clerk, MongoDB, Cloudinary AI, Stripe.",
+      src: imaginify,
+      demoLink: "https://imaginify-sigma-roan.vercel.app/",
+      codeLink: "https://github.com/prajwalpatil07/imaginify"
+    },
+    {
+      id: 2,
       title: "NetflixGPT",
       description: "Created an online movie streaming app with some AI search Feature using ReactJS, Tailwind CSS and Gemini API, which is fully responsive for all devices to play movies seamlessly. Tech Stack:- ReactJS, Tailwind CSS, Redux-toolkit, React-router-dom, Firebase (Authentication)",
       src: netflix,
@@ -15,22 +24,14 @@ const Projects = () => {
       codeLink: "https://github.com/prajwalpatil07/netflix-gpt"
     },
     {
-      id: 2,
+      id: 3,
       title: "YouTube",
       description: "Developed an Immersive video streaming platform which is highly optimised using all the latest tech used by React With Integration of Youtube API. Tech Stack:- ReactJs, Tailwind CSS, Redux-toolkit, React-router-dom.",
       src: youtube,
       demoLink: "https://youuutubeclone.netlify.app",
       codeLink: "https://github.com/prajwalpatil07/youtube"
     },
-    {
-      id: 3,
-      title: "Foodie",
-      description: "Developed a centralized platform using React JS and Tailwind CSS to consolidate 9+ restaurants in the city, showcasing comprehensive menu details. Tech Stack:- ReactJs, Tailwind CSS, Redux-toolkit, React-router-dom",
-      src: foodie,
-      demoLink: "https://github.com/prajwalpatil07/Foodie",
-      codeLink: "https://github.com/prajwalpatil07/Foodie"
-    },
-  ];
+    ];
 
   return (
     <div name="projects" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
